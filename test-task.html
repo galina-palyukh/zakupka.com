@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Test task</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header,
+        footer {
+            background-color: #ddd;
+            padding: 20px;
+        }
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+            padding: 3px;
+        }
+
+        li {
+            width: 300px;
+            padding: 20px;
+            margin: 3px;
+            background-color: #eee;
+        }
+    </style>
+    <style>
+
+        html,
+        body {
+            height: 100%;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1 0 auto;
+        }
+
+        footer,
+        header {
+            flex: 0 0 auto;
+        }
+
+        li{
+            flex-grow: 1;
+        }
+
+        li:empty{
+            height: 0;
+            visibility: hidden;
+        }
+
+    </style>
+</head>
+<body>
+<header>header</header>
+<main>
+    <div>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    </div>
+</main>
+
+<footer>footer</footer>
+</body>
+</html>
